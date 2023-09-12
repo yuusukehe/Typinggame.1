@@ -1,0 +1,61 @@
+h1 {
+    font-size: 36px;
+    color: brown;
+  }
+  
+  #score {
+    color: red;
+  }
+  
+  #game-container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  #word {
+    font-weight: bold;
+    margin: 1em;
+    border-bottom: 1rem solid rgb(118, 59, 255);
+    font-size: 30px;
+  }
+  
+  #input {
+    font-size: 30px;
+    padding: 10px;
+  }
+  
+  #score, #time {
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  .heading-018 {
+    padding: .5em .7em;
+    border: 2px solid #ff0000;
+    box-shadow: 5px 5px #ff0000;
+    color: #ff0000;
+}
+.box-001 {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: calc(1em + 25px) 1.5em 1em;
+    border: 2px solid #e6edf3;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.box-001 svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #e6edf3;
+}
+
+.box-001 p {
+    margin: 0;
+    padding: 0;
+}
